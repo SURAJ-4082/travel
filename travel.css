@@ -1,0 +1,484 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(banner.png.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% auto;
+}
+
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menu{
+    list-style: none;
+    display: flex;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+#menu a{
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#booking{
+    height: 700px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 150px;
+    
+}
+
+
+
+
+
+#book{
+    border: 2px solid black;
+    width: 95px;
+    font-size: 22px;
+    background-color: black;
+    color: white;
+    border-radius: 10px 40px 10px 0px;
+}
+
+#box {
+    padding: 10px;
+    width: 100%;
+    height: 120vh;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+#box{
+    width: 100%;
+}
+.box_wrapper{
+    background-color: rgba(248, 248, 240, 0.668);
+    width: fit-content;
+    padding: 20px;
+    border-radius: 20px;
+}
+#boxx {
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 870px;
+    height: 130px;
+    border-radius: 20px;
+}
+
+.hey {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.hey > div {
+    text-align: center;
+    margin: 0 10px;
+}
+
+.hey img {
+    display: block;
+    margin: 0 auto 10px;
+    
+}
+.book{
+    width: 100%;
+    
+}
+
+#fou img {
+    display: block;
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+    
+}
+
+#fis, #sec, #thi, #fou {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+}
+
+
+#inp{
+    border: none;
+}
+
+#bottle{
+    width: 148px;
+    height: 148px;
+    padding-top: 100px;
+    padding-left: 100px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#good{
+    text-align: center;
+    
+}
+
+#good h2{
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+#good-parent{
+    display: flex;
+}
+.good-child{
+    text-align: center;
+}
+#good h3{
+    margin-top: 18px;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+#midd{
+    text-align: left;
+    text-align: right;
+}
+
+
+#bui{
+    position: relative;
+    width: 475px;
+    margin-top: 180px;
+    order: 2;
+    margin-left: auto;
+}
+
+#buc{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#see{
+    
+    margin-top: 180px;
+    padding-right: 105px;
+    width: 450px;
+}
+
+#see h4{
+    font-size: 50px;
+    font-family: poppins;
+}
+
+#see a{
+    color: blue;
+}
+
+#one{
+    display: flex;
+    align-items: center;
+    margin-bottom: 105px;
+    
+}
+
+
+
+
+
+
+
+#tow{
+    position: relative;
+    width: 475px;
+    margin-left: auto;
+    
+}
+
+#coc{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
+#taste{
+    
+    /* margin-top: 180px; */
+    padding-left: 105px;
+    width: 450px;
+    margin-left: auto;
+}
+
+#taste h4{
+    font-size: 50px;
+    font-family: poppins;
+}
+
+#taste a{
+    color: blue;
+}
+
+#Two{
+    
+    display: flex;
+    align-items: center;
+    margin-bottom: 105px;
+}
+
+
+
+
+
+
+
+
+
+#ballon{
+    position: relative;
+    width: 475px;
+    padding-top: 20px;
+    order: 2;
+    /* margin-top: 180px; */
+}
+
+#hot{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#tower{
+    /* float:right;*/
+}
+
+#fly{
+    
+    /* margin-top: 180px; */
+    padding-left: 105px;
+    width: 450px;
+    
+}
+
+#fly h4{
+    font-size: 50px;
+    font-family: poppins;
+}
+
+#fly a{
+    color: blue;
+}
+
+/* parent ma gara ra corner allign garna bhana justify content spacebetween garne */
+/* child ma garna bhana margin-left: auto; */
+
+#three{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+/* for tablet */
+@media(min-width:557px) and (max-width: 991px) {
+    
+    .container{
+        width: 90%;
+        
+    }
+    
+    #boxx {
+        width: 90%;
+        height: auto;
+        padding: 20px;
+    }
+    
+    .hey {
+        flex-wrap: wrap;
+    }
+    
+    .hey > div {
+        width: 70%;
+        margin-bottom: 20px;
+    }
+    
+    #bui, #tow, #ballon {
+        width: 100%;
+        margin-left: 0;
+        order: 1;
+    }
+    
+    #see, #taste, #fly {
+        width: 100%;
+        padding: 0 20px;
+        order: 2;
+        margin-top: 20px;}
+
+    
+    #one, #Two, #three {
+        flex-direction: column;
+    }
+    
+   
+    #good-parent {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .good-child {
+        margin-bottom: 20px;
+        width: 50%;
+        box-sizing: border-box;
+        padding: 10px;
+    }
+    
+    
+    #good h2{
+        margin-bottom: 30px;
+    }
+    
+    #good h3 {
+        margin-top: 30px;
+        margin-bottom: 60px;
+        
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+
+/* for mobile */
+@media(max-width:556px) {
+    
+    .container{
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;        
+    }
+    
+    
+    
+    #boxx {
+        width: 100%;
+        height: auto;
+        padding: 15px;
+    }
+    
+    .hey {
+        flex-direction: column;
+    }
+    
+    .hey > div {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    #bui, #tow, #ballon {
+        width: 100%;
+        order: 1;
+        
+    }
+    
+    #see, #taste, #fly {
+        width: 100%;
+        padding: 0 15px;
+        order: 2;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    
+    #see h4, #taste h4, #fly h4 {
+        font-size: 30px;
+    }
+    
+    #one, #Two, #three {
+        flex-direction: column;
+    }
+    
+   
+    
+    #good-parent {
+        flex-direction: column;
+    }
+    
+    .good-child {
+        margin-bottom: 10px;
+    }
+    
+    #good h2{
+        margin-bottom: 20px;
+    }
+    
+    #good h3 {
+        margin-top: 20px;
+        margin-bottom: 40px;
+        
+    }
+}
